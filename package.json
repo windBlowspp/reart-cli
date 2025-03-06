@@ -1,0 +1,27 @@
+{
+  "name": "reart-cli",
+  "version": "0.0.1",
+  "description": "reart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "windBlowspp",
+    "email": "nerve98326@163.com"
+  },
+  "bin": {
+    "reart": "./bin/cli.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.x",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.3.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.4.2",
+    "ora": "^5.x",
+    "cross-spawn": "^7.0.6"
+  }
+}
